@@ -150,3 +150,79 @@
 .article-date, .article-link {
     color: #00bec9;
 }
+
+/* footer */
+#footer {
+    background-color: #343434;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-search-box {
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 09px;
+}
+
+#footer-search-submit {
+    background-color: #00bec9;
+    color: white;
+    border:0;
+    border-radius: 0;
+    padding: 15px 40px;
+}
+
+.social-icon {
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width:1150px) {
+    #footer-search-box {
+        max-width: 175px;
+    }
+}
+@media only screen and (max-width:900px) {
+    #footer-search-box {
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    #footer-search-box {
+        max-width: 120px;
+    }
+}
+@media only screen and (max-width:768px) {
+    #footer-search-box {
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #footer-search-box {
+        max-width: 200px;
+    }
+    #footer {
+        padding-top: 10px;
+    }
+
+    #footer h4 {
+        padding-top: 40px;
+    }
+}
