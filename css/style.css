@@ -106,3 +106,22 @@
 #service-img {
     padding: 5%;
 }
+
+/* Counter */
+#counter-section{
+    background-color: #fcc302;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+}
+.counter-icon{
+    font-size: 60px;
+}
+
+@media only screen and (max-width:520px){
+    .counter-icon{
+        font-size: 40px;
+    }
+}
