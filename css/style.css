@@ -125,3 +125,28 @@
         font-size: 40px;
     }
 }
+
+/* blog */
+#blog {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+#blog-tittle{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.article-details{
+    padding: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top: 0;
+}
+
+.article-date, .article-link {
+    color: #00bec9;
+}
